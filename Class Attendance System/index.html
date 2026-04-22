@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Attendance System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>📘 Student Attendance System</h1>
+    <a href="add.html" class="btn">+ Add Student</a>
+</header>
+
+<div class="controls">
+    <button onclick="addClass()">➕ Add Class</button>
+    <h3>Total Classes: <span id="totalClasses">0</span></h3>
+</div>
+
+<table>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Present</th>
+            <th>Absent</th>
+            <th>Attendance %</th>
+            <th>Mark</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody id="studentTable"></tbody>
+</table>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,92 @@
+body {
+    background: linear-gradient(135deg, #ff512f, #dd2476);
+    font-family: Arial;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    text-shadow: 0 0 15px black;
+}
+
+.setup {
+    margin: 20px;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background: black;
+    color: white;
+    cursor: pointer;
+}
+
+.game {
+    margin-top: 20px;
+}
+
+.deck-area {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 20px;
+}
+
+.deck, .discard {
+    width: 100px;
+    height: 140px;
+    background: black;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 18px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.5);
+    transition: 0.3s;
+}
+
+.deck:hover {
+    transform: scale(1.1);
+}
+
+.player {
+    margin: 20px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.card {
+    width: 60px;
+    height: 90px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    color: white;
+}
+
+.red { background: #e53935; }
+.green { background: #43a047; }
+.blue { background: #1e88e5; }
+.yellow { background: #fdd835; color: black; }
+.black { background: #000; color: white; }
+
+.card:hover {
+    transform: scale(1.2);
+}
+
+.discard {
+    box-shadow: 0 0 20px white;
+    font-size: 20px;
+}
+

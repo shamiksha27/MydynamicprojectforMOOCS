@@ -1,0 +1,70 @@
+body {
+    font-family: Arial;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    color: white;
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn {
+    background: #00c6ff;
+    padding: 10px 15px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.controls {
+    margin: 15px 0;
+}
+
+button {
+    padding: 6px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    color: black;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+th {
+    background: #2a5298;
+    color: white;
+}
+
+.present { background: green; color: white; }
+.absent { background: red; color: white; }
+.edit { background: orange; }
+.delete { background: black; color: white; }
+
+.form-container {
+    width: 300px;
+    margin: auto;
+    background: white;
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin: 10px 0;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>UNO Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>🔥 UNO Game 🔥</h1>
+
+<!-- Player Selection -->
+<div class="setup">
+    <label>Select Players:</label>
+    <select id="playerCount">
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+        <option>5</option>
+        <option>6</option>
+    </select>
+    <button onclick="startGame()">Start Game</button>
+</div>
+
+<!-- Game Area -->
+<div class="game">
+
+    <div class="deck-area">
+        <div class="deck" onclick="drawCard()">🂠 Draw</div>
+        <div class="discard" id="discard">Start</div>
+    </div>
+
+    <h2 id="turn">Player 1 Turn</h2>
+
+    <div id="players"></div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
